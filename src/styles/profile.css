@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.container1 {
+    margin-top: 55px;
+}
+
+.container3 {
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.icon1 {
+    margin-left: 70px;
+}
+
+.card-bg-ligth {
+    width: 300px;
+}
+
+.lingkaran {
+    margin-top: 70px;
+    margin-left: 110px;
+}
+button {
+    margin-right: 15px;
+}
+.kotak {
+    padding-left: 40px;
+    padding-top: 30px;
+}

@@ -1,0 +1,62 @@
+.row a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.home-device {
+    display: none;
+}
+
+
+    @media (max-width: 425px) {
+    
+        .navigasi {
+            display: none;
+        }
+    
+        .home-device {
+            display: block;
+            align-items: center;
+        }
+
+        .back {
+            display: none;
+        }
+    
+        .form-grup {
+            padding: 16px;
+        }
+    
+        .back {
+            display: none;
+        }
+    
+        .mb-5 {
+            display: none;
+        }
+
+        .mt-3 {
+            margin-left: 16px;
+        }
+
+        .foto {
+            margin-top: 20px;
+            margin-left: 70px;
+        }
+
+        .btn-light {
+            margin-left: 60px;
+        }
+    
+        .btn-danger {
+            margin-top: 40px;
+        }
+    
+        .form-grup2 {
+            padding-left: 16px;
+        }
+    }

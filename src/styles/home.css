@@ -1,0 +1,234 @@
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-image: url(../resources/img/Group\ 236.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: right;
+}
+
+.text-campaign {
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.satu {
+    color: blueviolet;
+}
+
+.dua {
+    color: rgb(99, 99, 99);
+}
+
+.navigasi ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    padding: 3px;
+}
+.image {
+    width: 100%;
+}
+
+.navigasi ul li a:hover {
+    color: rgb(174, 0, 255);
+    cursor: pointer;
+}
+
+.content .content1 {
+    padding: 20px;
+}
+
+.content1 {
+    margin-top: 55px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-overlay {
+    width: 70%;
+    margin: 90px auto;
+}
+
+.container-sponsor {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.kosong {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: rgb(128, 128, 128);
+}
+
+.container-footer {
+    margin-top: 50px;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.container-footer li {
+    list-style: none;
+}
+
+/* hover */
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.image_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 18px;
+}
+
+.image_overlay:hover {
+    opacity: 0.5;
+}
+
+/* dekstop */
+
+@media (min-width: 1200px) {
+
+    .jumbotron {
+        height: 820px;
+    }
+
+    .text-campaign {
+        width: 50%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .item2 {
+        margin-top: 20px;
+    }
+
+    .item5 {
+        float: right;
+    }
+
+    .card-img-overlay {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+
+}
+
+/* tablet */
+
+@media (max-width: 1024px) {
+
+    .jumbotron {
+        width: 510;
+        height: 80vh;
+    }
+
+    .text-campaign {
+        width: 50%;
+        margin-top: 150px;
+    }
+
+    .item5 {
+        float: right;
+    }
+
+    .card-img-overlay {
+        font-size: 13px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .container-footer {
+        padding: 10px;
+    }
+
+}
+
+/* device */
+
+@media (max-width: 425px) {
+
+    .jumbotron {
+        width: 510;
+        height: 75vh;
+    }
+
+    .text-campaign {
+        width: 100%;
+        margin-top: 150px;
+        font-size: 10px;
+    }
+
+    .item2 img {
+        max-width: 20%;
+    }    
+
+    .image {
+        padding: 0 10px 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .col-md-6 {
+        font-size: 10px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .card-img-overlay {
+        font-size: 8px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .container-campaign {
+        padding: 20px;
+    }
+
+    .navigasi .item5 {
+        width: 100%;
+    }
+
+    .container-footer {
+        padding: 15px;
+        margin: auto;
+    }
+    
+}

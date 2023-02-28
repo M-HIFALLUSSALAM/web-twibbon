@@ -1,0 +1,67 @@
+body {
+    overflow-x: hidden;
+    height: 900px;
+}
+
+.content {
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.link {
+    margin-left: 300px;
+    color: #747474;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tombol1 {
+    width: 75px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #DEDEDE;
+
+}
+
+.tombol-submit {
+    background-color: #6A24FF;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.tombol-submit:hover {
+    background-color: #4500da;
+}
+
+.tombol1:hover {
+    background-color: #6A24FF;
+}
+
+.tombol {
+    width: 800px;
+    margin: 80px auto 20px auto;
+    font-weight: 600;
+}
+
+i {
+    color: grey;
+    transition: 0.3s;
+}
+
+button:hover i {
+    color: white;
+}
+
+button:active i {
+    color: white;
+}
